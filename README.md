@@ -1,99 +1,180 @@
 <div align="center">
 
-<img src="https://debflicks.com/icon-512.png" width="160" alt="DebFlicks logo" />
+<img src="https://debflicks.com/icon-512.png" width="145" alt="DebFlicks logo" />
 
 # DebFlicks
 
-### Movies & TV. One clean experience on Web and Android.
+### Discover. Watch. Enjoy.
 
-[![Website](https://img.shields.io/badge/OPEN_WEBSITE-DEBFLICKS.COM-E11D2E?style=for-the-badge&logo=googlechrome&logoColor=white)](https://debflicks.com)
-[![Android](https://img.shields.io/badge/ANDROID-DOWNLOAD_APK-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://debflicks.com/Debflix-latest.apk)
+**A clean movies & TV experience for Android and the Web.**
+
+<br/>
+
+[![OPEN WEBSITE](https://img.shields.io/badge/🌐_OPEN_WEBSITE-DEBFLICKS.COM-E11D2E?style=for-the-badge)](https://debflicks.com)
+&nbsp;
+[![DOWNLOAD APK](https://img.shields.io/badge/🤖_DOWNLOAD_APK-ANDROID-27272A?style=for-the-badge)](https://debflicks.com/Debflix-latest.apk)
+
+<br/>
+
 <!-- RELEASE_BADGE_START -->
-[![Latest](https://img.shields.io/badge/LATEST-v2.3.5--cf_%7C_Build_91-7C3AED?style=for-the-badge)](https://debflicks.com/Debflix-latest.apk)
+[![Latest](https://img.shields.io/badge/LATEST_VERSION-v2.3.5--cf-16A34A?style=flat-square)](https://debflicks.com/Debflix-latest.apk)
+![Build](https://img.shields.io/badge/BUILD-91-991B1B?style=flat-square)
 <!-- RELEASE_BADGE_END -->
 
-**Official website:** [debflicks.com](https://debflicks.com)
+`debflicks.com` · Android · Web · Regularly Updated
 
 </div>
 
 ---
 
-## 🚀 DebFlicks
+<div align="center">
 
-DebFlicks is a movie and television discovery and playback experience built for people who want to get from **“What should I watch?”** to watching quickly.
+## ✨ Why Choose DebFlicks?
 
-Browse current movies and series, discover Indian and international content, search by title or actor, explore genres and moods, continue where you left off, and use the same DebFlicks experience on Android or in your browser.
+</div>
 
-## ✨ Highlights
+<table>
+<tr>
+<td width="25%" valign="top">
 
-### 🎬 Discovery
+### 🔎 Smart Discovery
+Search titles and actors, explore genres and moods, and quickly find something worth watching.
 
-- Trending and current movies and television
-- Indian and international discovery
-- Bollywood, regional and global cinema browsing
-- Movie and series metadata in a clean poster-first interface
-- Continue Watching and playback progress
+</td>
+<td width="25%" valign="top">
 
-### 🔎 Smart Search
+### 🎬 Rich Discovery
+Trending movies, television, Indian cinema, regional content and international entertainment.
 
-- Search movies and television by title
-- Actor and filmography searches
-- Browse by cinema and language
-- Genre and mood discovery including Action, Horror, Thriller, Romance, Comedy, Crime, Mystery, Sci-Fi, Fantasy and Adventure
-- Results designed to mix relevant current and catalogue content
+</td>
+<td width="25%" valign="top">
 
-### ▶️ Playback Experience
+### ⚡ Smooth Experience
+Poster-first browsing, fast navigation, viewing progress and a dedicated Android playback experience.
 
-- Native Android playback experience
-- Browser-friendly web experience
-- Source comparison with useful playback information
-- Resume support and viewing progress
-- Designed for both movies and episodic television
+</td>
+<td width="25%" valign="top">
 
-### 📱 Android Experience
+### 🔄 Easy Updates
+Built-in Android updates with visible progress, automatic retry/resume and APK verification.
 
-- Dedicated Android application
-- Built-in update notifications
-- Visible update progress from 0–100%
-- Automatic interrupted-download retry/resume
-- APK verification before Android installer handoff
-- Android / Play Protect installation flow
+</td>
+</tr>
+</table>
 
 ---
 
-## 📱 Download for Android
+<table>
+<tr>
+<td width="52%" valign="top">
+
+## 🤖 Android App
 
 <!-- RELEASE_HEADING_START -->
 ### Latest release — **v2.3.5-cf · Build 91**
 <!-- RELEASE_HEADING_END -->
 
-<div align="center">
+### [⬇️ Download Latest DebFlicks APK](https://debflicks.com/Debflix-latest.apk)
 
-### [⬇️ DOWNLOAD LATEST DEBFLICKS APK](https://debflicks.com/Debflix-latest.apk)
+**Architecture:** `arm64-v8a`
 
-**Android · arm64-v8a**
+### Installation
 
-</div>
+1. Download the APK using the button above.
+2. Open the downloaded APK on your Android device.
+3. If Android asks, allow installation from this source.
+4. Complete the Android / Play Protect installation screen.
+5. Open DebFlicks.
 
-The download address is permanent and always points to the current **verified production APK**. You do not need to find a different link whenever DebFlicks is updated.
+### Auto Updates
 
-Already installed? DebFlicks checks for newer releases and presents the update inside the Android app.
+Already installed? DebFlicks automatically checks for a newer verified release.
 
-**Update flow:** Update available → Download 0–100% → Verify APK → Android installer / Play Protect → Install → Reopen DebFlicks.
+**Update available → Download 0–100% → Verify → Android installer → Install**
+
+The APK address is permanent and always points to the current verified production build.
+
+</td>
+<td width="48%" valign="top">
+
+## 🌐 Web App
+
+Enjoy DebFlicks directly in your browser — **nothing to install**.
+
+### [▶️ OPEN DEBFLICKS.COM](https://debflicks.com)
+
+- ✅ No installation
+- ✅ Modern browser support
+- ✅ Same DebFlicks discovery experience
+- ✅ Always on the current web release
+
+<br/>
+
+## 📱 Supported Platforms
+
+**🤖 Android**  
+Dedicated Android application
+
+**🌐 Web**  
+Modern desktop and mobile browsers
+
+**📱 Android tablets**  
+Supported through the Android application
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 🌐 Use DebFlicks on the Web
-
-Nothing to install.
-
 <div align="center">
 
-### [▶️ LAUNCH DEBFLICKS.COM](https://debflicks.com)
+## 🔥 Discover What to Watch
 
 </div>
 
-The supported production web address is **debflicks.com**.
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### 🎞️ Movies & Series
+Browse current and catalogue movies and television in a clean poster-first interface.
+
+</td>
+<td width="33%" valign="top">
+
+### 🇮🇳 Indian + International
+Discover Bollywood, regional Indian cinema and entertainment from around the world.
+
+</td>
+<td width="33%" valign="top">
+
+### 🎭 Genres & Moods
+Explore Action, Horror, Thriller, Romance, Comedy, Crime, Mystery, Sci-Fi, Fantasy, Adventure and more.
+
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+
+### 👤 Actor Search
+Search actors and explore relevant filmography results.
+
+</td>
+<td width="33%" valign="top">
+
+### 🔥 Trending & Current
+Find popular and currently relevant movies and television alongside catalogue favourites.
+
+</td>
+<td width="33%" valign="top">
+
+### ⏯️ Continue Watching
+Keep track of viewing progress and continue from where you left off.
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -105,72 +186,66 @@ The supported production web address is **debflicks.com**.
 | **Version** | `2.3.5-cf` |
 | **Build** | `91` |
 | **Platform** | Android |
-| **Architecture** | arm64-v8a |
-| **Latest APK** | [Download DebFlicks](https://debflicks.com/Debflix-latest.apk) |
-| **Web App** | [debflicks.com](https://debflicks.com) |
+| **Architecture** | `arm64-v8a` |
+| **Latest APK** | **[Download DebFlicks](https://debflicks.com/Debflix-latest.apk)** |
+| **Web App** | **[debflicks.com](https://debflicks.com)** |
 <!-- RELEASE_TABLE_END -->
 
-New Android releases are verified before being advertised to installed applications. The release process validates the published APK before the production version metadata is updated.
+> New Android releases are verified before being advertised to installed applications. The public release page automatically follows verified production release metadata.
 
 ---
 
-## 🖥️ Platform Support
+<table>
+<tr>
+<td width="34%" valign="top">
 
-### ✅ Web
+## 🎧 Feedback & Support
 
-Open [debflicks.com](https://debflicks.com) from a modern browser. No APK or desktop installation is required.
+Found a user-facing problem or have a suggestion?
 
-### ✅ Android
+### [Open an Issue](https://github.com/abhaycaya6188-droid/DebFlicks-Official/issues)
 
-Download the latest APK above. On first installation Android may ask you to allow installation from your browser or DebFlicks. Android and Google Play Protect may scan the APK before presenting the final Install action.
+Include your Android build/version when relevant. Never post passwords, API keys or account tokens publicly.
 
----
+</td>
+<td width="33%" valign="top">
 
-## 🆕 Updating DebFlicks
+## 🎁 Updates
 
-Existing Android users normally do not need to return to GitHub for every update.
+DebFlicks continues to evolve with improvements to:
 
-1. DebFlicks detects a newer verified build.
-2. Tap **Update Now**.
-3. Watch the download progress from **0–100%**.
-4. DebFlicks verifies the downloaded APK.
-5. Android opens its installer / Play Protect flow.
-6. Complete installation and reopen DebFlicks.
+- Discovery and search
+- Android experience
+- Playback stability
+- Update reliability
+- Performance and usability
 
-If you prefer, the permanent APK button on this page can always be used to obtain the current build directly.
+</td>
+<td width="33%" valign="top">
 
----
+## 🛡️ Important
 
-## 🔐 Public Release Repository
+This repository is the **public DebFlicks information and release page**.
 
-This repository is intentionally a **public information and release page**, not the DebFlicks application source repository.
+Application source code, private integrations, backend internals and deployment configuration are maintained separately and are **not published here**.
 
-DebFlicks application source code, provider integrations, scraper/resolver implementation, backend internals, deployment configuration and private service details are maintained separately and **are not published here**.
-
-That separation allows users to follow releases and download DebFlicks without exposing private implementation details.
-
----
-
-## 🐛 Feedback
-
-If something is not working correctly, use this repository's **Issues** section to report the user-facing problem and include your Android build/version when relevant.
-
-Please do not post credentials, API keys, account tokens or other private information in public issues.
+</td>
+</tr>
+</table>
 
 ---
-
-## ❤️ Project
-
-**DebFlicks** is created and maintained by **Abhay Aya**.
-
-Development and engineering assistance by **Codex by OpenAI**.
 
 <div align="center">
 
-[**Open DebFlicks**](https://debflicks.com) · [**Download Android APK**](https://debflicks.com/Debflix-latest.apk) · [**Report an Issue**](https://github.com/abhaycaya6188-droid/DebFlicks-Official/issues)
+### ❤️ DebFlicks
 
-</div>
+Created and maintained by **Abhay Aya**  
+Development and engineering assistance by **Codex by OpenAI**
 
----
+[**🌐 Open DebFlicks**](https://debflicks.com) · [**🤖 Download APK**](https://debflicks.com/Debflix-latest.apk) · [**🐛 Report an Issue**](https://github.com/abhaycaya6188-droid/DebFlicks-Official/issues)
+
+<br/>
 
 <sub>DebFlicks does not host media. Users are responsible for the services and content they access and should use only content they are authorized to access in their region.</sub>
+
+</div>
