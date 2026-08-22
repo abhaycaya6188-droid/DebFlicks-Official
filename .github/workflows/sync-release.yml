@@ -1,0 +1,94 @@
+name: Sync DebFlicks Release
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-debflicks-release
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout public repository
+        uses: actions/checkout@v4
+
+      - name: Fetch verified production release metadata
+        run: |
+          curl --fail --silent --show-error --retry 5 --retry-all-errors \
+            --connect-timeout 15 --max-time 60 \
+            -H 'Cache-Control: no-cache' \
+            https://debflicks.com/api/app-version \
+            -o /tmp/app-version.json
+
+          jq -e '.latestVersion | strings | length > 0' /tmp/app-version.json >/dev/null
+          jq -e '.versionCode | numbers' /tmp/app-version.json >/dev/null
+          jq -e '.apkUrl | strings | startswith("https://debflicks.com/")' /tmp/app-version.json >/dev/null
+
+      - name: Update public release files
+        run: |
+          python3 <<'PY'
+          import json, pathlib, re, urllib.parse
+
+          meta = json.loads(pathlib.Path('/tmp/app-version.json').read_text())
+          version = str(meta['latestVersion'])
+          build = int(meta['versionCode'])
+          apk = 'https://debflicks.com/Debflix-latest.apk'
+          website = 'https://debflicks.com'
+
+          release = {
+              'app': 'DebFlicks',
+              'versionName': version,
+              'versionCode': build,
+              'platform': 'android',
+              'downloadUrl': apk,
+              'website': website,
+          }
+          pathlib.Path('release.json').write_text(json.dumps(release, indent=2) + '\n')
+
+          readme_path = pathlib.Path('README.md')
+          text = readme_path.read_text()
+          badge_version = urllib.parse.quote(version.replace('-', '--'), safe='.')
+          badge = f'[![Latest](https://img.shields.io/badge/LATEST-v{badge_version}_%7C_Build_{build}-7C3AED?style=for-the-badge)]({apk})'
+          heading = f'### Latest release — **v{version} · Build {build}**'
+          table = f'''| | Release |
+          |---|---|
+          | **Version** | `{version}` |
+          | **Build** | `{build}` |
+          | **Platform** | Android |
+          | **Download** | [Debflix-latest.apk]({apk}) |
+          | **Website** | [debflicks.com]({website}) |'''.replace('          ', '')
+
+          def replace_block(source, name, value):
+              pattern = rf'(<!-- {name}_START -->).*?(<!-- {name}_END -->)'
+              updated, count = re.subn(pattern, rf'\1\n{value}\n\2', source, flags=re.S)
+              if count != 1:
+                  raise SystemExit(f'Missing or duplicate README marker: {name}')
+              return updated
+
+          text = replace_block(text, 'RELEASE_BADGE', badge)
+          text = replace_block(text, 'RELEASE_HEADING', heading)
+          text = replace_block(text, 'RELEASE_TABLE', table)
+          readme_path.write_text(text)
+          PY
+
+      - name: Commit only when production version changed
+        run: |
+          if git diff --quiet -- README.md release.json; then
+            echo 'Public page already matches production.'
+            exit 0
+          fi
+
+          version=$(jq -r '.versionName' release.json)
+          build=$(jq -r '.versionCode' release.json)
+          git config user.name 'DebFlicks Release Bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add README.md release.json
+          git commit -m "Update public Android release to v${version} build ${build}"
+          git push
