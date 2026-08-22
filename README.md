@@ -17,8 +17,7 @@
 <br/>
 
 <!-- RELEASE_BADGE_START -->
-[![Latest](https://img.shields.io/badge/LATEST_VERSION-v2.3.5--cf-16A34A?style=flat-square)](https://debflicks.com/Debflix-latest.apk)
-![Build](https://img.shields.io/badge/BUILD-91-991B1B?style=flat-square)
+[![Latest](https://img.shields.io/badge/LATEST-v2.3.5--cf_%7C_Build_91-7C3AED?style=for-the-badge)](https://debflicks.com/Debflix-latest.apk)
 <!-- RELEASE_BADGE_END -->
 
 `debflicks.com` · Android · Web · Regularly Updated
@@ -186,9 +185,8 @@ Keep track of viewing progress and continue from where you left off.
 | **Version** | `2.3.5-cf` |
 | **Build** | `91` |
 | **Platform** | Android |
-| **Architecture** | `arm64-v8a` |
-| **Latest APK** | **[Download DebFlicks](https://debflicks.com/Debflix-latest.apk)** |
-| **Web App** | **[debflicks.com](https://debflicks.com)** |
+| **Download** | [Debflix-latest.apk](https://debflicks.com/Debflix-latest.apk) |
+| **Website** | [debflicks.com](https://debflicks.com) |
 <!-- RELEASE_TABLE_END -->
 
 > New Android releases are verified before being advertised to installed applications. The public release page automatically follows verified production release metadata.
