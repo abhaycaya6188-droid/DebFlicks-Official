@@ -8,7 +8,9 @@
 
 [![Website](https://img.shields.io/badge/OPEN-debflicks.com-E11D2E?style=for-the-badge&logo=googlechrome&logoColor=white)](https://debflicks.com)
 [![Android](https://img.shields.io/badge/ANDROID-DOWNLOAD_APK-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://debflicks.com/Debflix-latest.apk)
+<!-- RELEASE_BADGE_START -->
 [![Latest](https://img.shields.io/badge/LATEST-v2.3.5--cf_%7C_Build_91-7C3AED?style=for-the-badge)](https://debflicks.com/Debflix-latest.apk)
+<!-- RELEASE_BADGE_END -->
 
 **Official website:** [debflicks.com](https://debflicks.com)
 
@@ -18,7 +20,9 @@
 
 ## 📱 Get DebFlicks for Android
 
+<!-- RELEASE_HEADING_START -->
 ### Latest release — **v2.3.5-cf · Build 91**
+<!-- RELEASE_HEADING_END -->
 
 <div align="center">
 
@@ -26,9 +30,9 @@
 
 </div>
 
-The button always points to the current DebFlicks Android release. Existing users also receive new releases through DebFlicks' built-in updater.
+The download button always points to the current **verified** DebFlicks Android APK. Existing users receive the same release through DebFlicks' built-in updater.
 
-**Updating is simple:** New update → Download progress → Verification → Android installer → Done.
+**Update flow:** New update → Download 0–100% → Verification → Android installer / Play Protect → Install.
 
 ---
 
@@ -61,6 +65,7 @@ DebFlicks is designed to make finding something worth watching quick and enjoyab
 
 ## 📦 Current Android Release
 
+<!-- RELEASE_TABLE_START -->
 | | Release |
 |---|---|
 | **Version** | `2.3.5-cf` |
@@ -68,14 +73,15 @@ DebFlicks is designed to make finding something worth watching quick and enjoyab
 | **Platform** | Android |
 | **Download** | [Debflix-latest.apk](https://debflicks.com/Debflix-latest.apk) |
 | **Website** | [debflicks.com](https://debflicks.com) |
+<!-- RELEASE_TABLE_END -->
 
 > This public repository is the official DebFlicks information and release page. Application source code and private service implementation are intentionally not published here.
 
 ---
 
-## 🔐 About this repository
+## 🔐 Privacy of the project
 
-This repository contains **public release information only**. DebFlicks' application source, private backend implementation and internal service configuration are maintained separately and are not exposed here.
+This repository contains **public release information only**. DebFlicks application source, provider integrations, scraper/resolver implementation, backend internals and private configuration are maintained separately and are **not published here**.
 
 ---
 
