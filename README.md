@@ -17,7 +17,7 @@
 <br/>
 
 <!-- RELEASE_BADGE_START -->
-[![Latest](https://img.shields.io/badge/LATEST-v2.5.6--torrent_%7C_Build_106-7C3AED?style=for-the-badge)](https://debflicks.com/Debflix-latest.apk)
+[![Latest](https://img.shields.io/badge/LATEST-v2.5.7--torrent_%7C_Build_107-7C3AED?style=for-the-badge)](https://debflicks.com/Debflix-latest.apk)
 <!-- RELEASE_BADGE_END -->
 
 `debflicks.com` · Android · Web · Regularly Updated
@@ -70,7 +70,7 @@ Built-in Android updates with visible progress, automatic retry/resume and APK v
 ## 🤖 Android App
 
 <!-- RELEASE_HEADING_START -->
-### Latest release — **v2.5.6-torrent · Build 106**
+### Latest release — **v2.5.7-torrent · Build 107**
 <!-- RELEASE_HEADING_END -->
 
 ### [⬇️ Download Latest DebFlicks APK](https://debflicks.com/Debflix-latest.apk)
@@ -182,8 +182,8 @@ Keep track of viewing progress and continue from where you left off.
 <!-- RELEASE_TABLE_START -->
 | | Release |
 |---|---|
-| **Version** | `2.5.6-torrent` |
-| **Build** | `106` |
+| **Version** | `2.5.7-torrent` |
+| **Build** | `107` |
 | **Platform** | Android |
 | **Download** | [Debflix-latest.apk](https://debflicks.com/Debflix-latest.apk) |
 | **Website** | [debflicks.com](https://debflicks.com) |
